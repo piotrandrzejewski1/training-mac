@@ -4,7 +4,7 @@
       <File FileName="MacTraining/AppDelegate.cs" Line="24" Column="25" />
       <File FileName="MacTraining/Info.plist" />
       <File FileName="MacTraining/ViewController.cs" Line="7" Column="40" />
-      <File FileName="MacTraining/DashboardVc.cs" Line="13" Column="6" />
+      <File FileName="MacTraining/DashboardVc.cs" Line="11" Column="13" />
       <File FileName="MacTraining/Main.storyboard" />
     </Files>
   </MonoDevelop.Ide.Workbench>
