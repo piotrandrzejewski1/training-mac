@@ -123,6 +123,10 @@
     <Compile Include="ViewControllers\SettingsVc.designer.cs">
       <DependentUpon>SettingsVc.cs</DependentUpon>
     </Compile>
+    <Compile Include="IconAndTextCell.cs" />
+    <Compile Include="IconAndTextCell.designer.cs">
+      <DependentUpon>IconAndTextCell.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MacTraining.Shared\MacTraining.Shared.csproj">

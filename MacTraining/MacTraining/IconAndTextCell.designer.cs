@@ -9,21 +9,13 @@ using System;
 using System.CodeDom.Compiler;
 using UIKit;
 
-namespace MacTraining.ViewControllers
+namespace MacTraining
 {
-    [Register ("SettingsVc")]
-    partial class SettingsVc
+    [Register ("IconAndTextCell")]
+    partial class IconAndTextCell
     {
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UITableView TableView { get; set; }
-
         void ReleaseDesignerOutlets ()
         {
-            if (TableView != null) {
-                TableView.Dispose ();
-                TableView = null;
-            }
         }
     }
 }
