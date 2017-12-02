@@ -1,5 +1,10 @@
-﻿using Foundation;
+﻿using System.Collections.Generic;
+using Foundation;
+using MacTraining.Adapters;
 using UIKit;
+using MacTraining.Shared;
+using MacTraining.Helpers;
+using MacTraining.ViewControllers;
 
 namespace MacTraining
 {
@@ -9,6 +14,8 @@ namespace MacTraining
     public class AppDelegate : UIApplicationDelegate
     {
         // class-level declarations
+        public static NavigationService NavigationService { get; private set; }
+
 
         public override UIWindow Window
         {
@@ -20,6 +27,13 @@ namespace MacTraining
         {
             // Override point for customization after application launch.
             // If not required for your application you can safely delete this method
+
+            NavigationService = new NavigationService();
+
+            NavigationService.SetPagesDictionary(new Dictionary<PageNames, UIViewController>{
+                {PageNames.Main, Statics.GetInstance<MainVc>(PageNames.Main)},
+                {PageNames.Settings, Statics.GetInstance<SettingsVc>(PageNames.Settings)}
+            });
 
             return true;
         }

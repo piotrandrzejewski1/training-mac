@@ -90,10 +90,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Storyboards\" />
+    <Folder Include="ViewControllers\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
-    <InterfaceDefinition Include="Main.storyboard" />
+    <InterfaceDefinition Include="Storyboards\MainStoryboard.storyboard" />
+    <InterfaceDefinition Include="Storyboards\SettingsStoryboard.storyboard" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -102,18 +106,33 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="ViewController.cs" />
-    <Compile Include="ViewController.designer.cs">
-      <DependentUpon>ViewController.cs</DependentUpon>
+    <Compile Include="ViewControllers\LibraryVc.cs" />
+    <Compile Include="ViewControllers\LibraryVc.designer.cs">
+      <DependentUpon>LibraryVc.cs</DependentUpon>
     </Compile>
-    <Compile Include="DashboardVc.cs" />
-    <Compile Include="DashboardVc.designer.cs">
-      <DependentUpon>DashboardVc.cs</DependentUpon>
+    <Compile Include="ViewControllers\PlayerVc.cs" />
+    <Compile Include="ViewControllers\PlayerVc.designer.cs">
+      <DependentUpon>PlayerVc.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductsListVc.cs" />
-    <Compile Include="ProductsListVc.designer.cs">
-      <DependentUpon>ProductsListVc.cs</DependentUpon>
+    <Compile Include="Helpers\Statics.cs" />
+    <Compile Include="ViewControllers\MainVc.cs" />
+    <Compile Include="ViewControllers\MainVc.designer.cs">
+      <DependentUpon>MainVc.cs</DependentUpon>
     </Compile>
+    <Compile Include="ViewControllers\SettingsVc.cs" />
+    <Compile Include="ViewControllers\SettingsVc.designer.cs">
+      <DependentUpon>SettingsVc.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MacTraining.Shared\MacTraining.Shared.csproj">
+      <Project>{BCD09D5F-4BC1-406E-8BB6-C68007F9C7E2}</Project>
+      <Name>MacTraining.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MacTraining.Adapters\MacTraining.Adapters.csproj">
+      <Project>{D5A9A9AD-5E13-4589-9D71-EEF44DED4205}</Project>
+      <Name>MacTraining.Adapters</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

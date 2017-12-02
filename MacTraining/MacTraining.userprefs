@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{2293AE6E-DD25-42B2-B59D-4CAAD1FEFC7B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MacTraining/Main.storyboard">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MacTraining/AppDelegate.cs">
     <Files>
-      <File FileName="MacTraining/AppDelegate.cs" Line="24" Column="25" />
+      <File FileName="MacTraining/AppDelegate.cs" Line="33" Column="13" />
+      <File FileName="MacTraining/Storyboards/MainStoryboard.storyboard" />
+      <File FileName="MacTraining/Storyboards/SettingsStoryboard.storyboard" />
+      <File FileName="MacTraining/ViewControllers/PlayerVc.cs" Line="16" Column="47" />
+      <File FileName="MacTraining/Helpers/Statics.cs" Line="13" Column="25" />
       <File FileName="MacTraining/Info.plist" />
-      <File FileName="MacTraining/ViewController.cs" Line="7" Column="40" />
-      <File FileName="MacTraining/DashboardVc.cs" Line="11" Column="13" />
-      <File FileName="MacTraining/Main.storyboard" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

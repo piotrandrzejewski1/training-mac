@@ -1,9 +1,14 @@
 /Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining/bin/iPhoneSimulator/Debug/MacTraining.exe
 /Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining/bin/iPhoneSimulator/Debug/MacTraining.pdb
+/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining/bin/iPhoneSimulator/Debug/MacTraining.Adapters.dll
+/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining/bin/iPhoneSimulator/Debug/MacTraining.Shared.dll
+/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining/bin/iPhoneSimulator/Debug/MacTraining.Shared.pdb
+/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining/bin/iPhoneSimulator/Debug/MacTraining.Adapters.pdb
 /Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0/ibtool/_BundleResourceWithLogicalName.items
 /Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0/actool/_PartialAppManifest.items
 /Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0/actool/_BundleResourceWithLogicalName.items
 /Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0/optimized/
+/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining/obj/iPhoneSimulator/Debug/MacTraining.csprojResolveAssemblyReference.cache
 /Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining/obj/iPhoneSimulator/Debug/MacTraining.csproj.CoreCompileInputs.cache
 /Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining/obj/iPhoneSimulator/Debug/MacTraining.exe
 /Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining/obj/iPhoneSimulator/Debug/MacTraining.pdb
