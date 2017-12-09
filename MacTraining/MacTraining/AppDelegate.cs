@@ -16,7 +16,6 @@ namespace MacTraining
         // class-level declarations
         public static NavigationService NavigationService { get; private set; }
 
-
         public override UIWindow Window
         {
             get;
@@ -27,6 +26,8 @@ namespace MacTraining
         {
             // Override point for customization after application launch.
             // If not required for your application you can safely delete this method
+
+            Window.TintColor = ColorPalette.Accent;
 
             NavigationService = new NavigationService();
 

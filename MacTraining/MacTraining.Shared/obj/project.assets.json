@@ -31,6 +31,9 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
+      "MvvmLight/5.3.0": {
+        "type": "package"
+      },
       "NETStandard.Library/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -1258,6 +1261,18 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
+      ]
+    },
+    "MvvmLight/5.3.0": {
+      "sha512": "LIUnWtoAhJFe+WlZkGimSb0pGVPoCuXWk3ERL1KC1tUon2VVZ8kwvGIH1u7fsEnQpiQhh5iha46SI8ymhsBfvQ==",
+      "type": "package",
+      "path": "mvvmlight/5.3.0",
+      "files": [
+        "Content/ViewModel/MainViewModel.cs.pp",
+        "Content/ViewModel/ViewModelLocator.cs.pp",
+        "mvvmlight.5.3.0.nupkg.sha512",
+        "mvvmlight.nuspec",
+        "tools/install.ps1"
       ]
     },
     "NETStandard.Library/1.6.1": {
@@ -4324,11 +4339,13 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v1.6": [
+      "MvvmLight >= 5.3.0",
       "NETStandard.Library >= 1.6.1"
     ]
   },
   "packageFolders": {
-    "/Users/pojrzynski/.nuget/packages/": {}
+    "/Users/pojrzynski/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -4339,6 +4356,9 @@
       "packagesPath": "/Users/pojrzynski/.nuget/packages/",
       "outputPath": "/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining.Shared/obj",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "/Users/pojrzynski/.config/NuGet/NuGet.Config"
       ],
@@ -4367,6 +4387,10 @@
             "target": "Package",
             "version": "1.6.1",
             "autoReferenced": true
+          },
+          "MvvmLight": {
+            "target": "Package",
+            "version": "5.3.0"
           }
         }
       }

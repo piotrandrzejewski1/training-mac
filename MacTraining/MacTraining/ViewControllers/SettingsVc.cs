@@ -1,6 +1,8 @@
 using Foundation;
 using System;
 using UIKit;
+using MacTraining.Cells;
+using System.Diagnostics;
 
 namespace MacTraining.ViewControllers
 {
@@ -14,8 +16,12 @@ namespace MacTraining.ViewControllers
         {
             base.ViewWillAppear(animated);
             TableView.RowHeight = UITableView.AutomaticDimension;
-            TableView.EstimatedRowHeight = 44;
+            TableView.EstimatedRowHeight = 150;
             TableView.Source = new SettingsTableViewSource();
+            //TableView.AllowsSelection = false;
+            TableView.AllowsMultipleSelection = true;
+            //TableView.SeparatorStyle = UITableViewCellSeparatorStyle.None;
+            TableView.SelectRow( NSIndexPath.FromRowSection(2,1),true, UITableViewScrollPosition.None);
         }
     }
 
@@ -27,28 +33,38 @@ namespace MacTraining.ViewControllers
             {
                 var cell = new UITableViewCell();
                 cell.TextLabel.Text = indexPath.Section + " " + indexPath.Row;
+                //cell.SeparatorInset = new UIEdgeInsets(0, 3000, 0, 0);
+                //cell.SelectionStyle = UITableViewCellSelectionStyle.None;
+                cell.SelectedBackgroundView.BackgroundColor = UIColor.Red;
                 return cell;
             }
             else if (indexPath.Section == 1)
             {
-                var cell = tableView.DequeueReusableCell("IconAndTextCell", indexPath);
+                var cell = (IconAndTextCell)tableView.DequeueReusableCell("IconAndTextCell", indexPath);
+                cell.Setup("Siemanko huehue " + indexPath.Row, indexPath.Row % 2 == 0 ? "huehuie" : string.Empty);
+                cell.ImageView.Image = UIImage.FromBundle("Icons/clear");
                 return cell;
             }
             else
             {
-                var cell = tableView.DequeueReusableCell("IconAndTextCell", indexPath);
+                var cell = SettingsCell.Create(indexPath.Row %2 ==0, "Siemanko huehue " + indexPath.Row);
                 return cell;
             }
         }
 
         public override nint RowsInSection(UITableView tableview, nint section)
         {
-            return 5;
+            if (section == 0)
+                return 3;
+            if (section == 1)
+                return 6;
+
+            return 0;
         }
 
         public override nint NumberOfSections(UITableView tableView)
         {
-            return 4;
+            return 2;
         }
 
         public override string TitleForHeader(UITableView tableView, nint section)
@@ -58,8 +74,14 @@ namespace MacTraining.ViewControllers
 
         public override void RowSelected(UITableView tableView, NSIndexPath indexPath)
         {
+            Debug.WriteLine("Selected: " + indexPath);
             //akcja
-            tableView.DeselectRow(indexPath, true);
+            //tableView.DeselectRow(indexPath, true);
+        }
+
+        public override void RowDeselected(UITableView tableView, NSIndexPath indexPath)
+        {
+            Debug.WriteLine("Deselected: "+indexPath);
         }
     }
 }

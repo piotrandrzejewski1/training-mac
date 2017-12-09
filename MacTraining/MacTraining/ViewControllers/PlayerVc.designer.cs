@@ -14,12 +14,20 @@ namespace MacTraining.ViewControllers
     [Register ("PlayerVc")]
     partial class PlayerVc
     {
-        [Action ("SettingsButtonClicked:")]
+        [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void SettingsButtonClicked (UIKit.UIButton sender);
+        UIKit.UIButton SettingsButton { get; set; }
+
+        [Action ("SettingsButton_Clicked:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void SettingsButton_Clicked (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {
+            if (SettingsButton != null) {
+                SettingsButton.Dispose ();
+                SettingsButton = null;
+            }
         }
     }
 }

@@ -1,6 +1,7 @@
 using Foundation;
 using System;
 using UIKit;
+using MacTraining.Helpers;
 
 namespace MacTraining.ViewControllers
 {
@@ -14,6 +15,7 @@ namespace MacTraining.ViewControllers
         {
             base.ViewDidLoad();
             AppDelegate.NavigationService.SetNavigationController(NavigationController);
+            TabBar.BackgroundImage = Stylization.ImageFromColor(ColorPalette.BaseGray);
         }
     }
 }

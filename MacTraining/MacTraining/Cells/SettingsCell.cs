@@ -19,5 +19,18 @@ namespace MacTraining.Cells
         {
             // Note: this .ctor should not contain any initialization logic.
         }
+
+        public static SettingsCell Create(bool isChecked, string header)
+        {
+            var cell = (SettingsCell)Nib.Instantiate(null, null)[0];
+
+            if (isChecked)
+                cell.IconView.Image = UIImage.FromBundle("Icons/confirmationTickIcon");
+            else
+                cell.IconView.Image = UIImage.FromBundle("Icons/updateScreenIllustration");
+
+            cell.HeaderLabel.Text = header;
+            return cell;
+        }
     }
 }

@@ -1,15 +1,10 @@
 ﻿<Properties StartupConfiguration="{2293AE6E-DD25-42B2-B59D-4CAAD1FEFC7B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MacTraining/Storyboards/SettingsStoryboard.storyboard">
-    <Files>
-      <File FileName="MacTraining/ViewControllers/SettingsVc.cs" Line="39" Column="17" />
-      <File FileName="MacTraining/Storyboards/SettingsStoryboard.storyboard" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.MacTraining PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0A55EDD0-1548-47A8-AD97-D5F469BEF9B0" />
+  <MonoDevelop.Ide.ItemProperties.MacTraining PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0A55EDD0-1548-47A8-AD97-D5F469BEF9B0" automaticSigning="False" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>
