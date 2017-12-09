@@ -1,9 +1,0 @@
-/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining.Shared/bin/Debug/netstandard1.6/MacTraining.Shared.deps.json
-/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining.Shared/bin/Debug/netstandard1.6/MacTraining.Shared.dll
-/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining.Shared/bin/Debug/netstandard1.6/MacTraining.Shared.pdb
-/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining.Shared/obj/Debug/netstandard1.6/MacTraining.Shared.csprojResolveAssemblyReference.cache
-/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining.Shared/obj/Debug/netstandard1.6/MacTraining.Shared.csproj.CoreCompileInputs.cache
-/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining.Shared/obj/Debug/netstandard1.6/MacTraining.Shared.AssemblyInfoInputs.cache
-/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining.Shared/obj/Debug/netstandard1.6/MacTraining.Shared.AssemblyInfo.cs
-/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining.Shared/obj/Debug/netstandard1.6/MacTraining.Shared.dll
-/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining.Shared/obj/Debug/netstandard1.6/MacTraining.Shared.pdb

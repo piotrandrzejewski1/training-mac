@@ -1,9 +1,2 @@
-/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining.Adapters/bin/Debug/MacTraining.Adapters.dll
-/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining.Adapters/bin/Debug/MacTraining.Adapters.pdb
-/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining.Adapters/bin/Debug/MacTraining.Shared.dll
-/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining.Adapters/bin/Debug/MacTraining.Shared.pdb
 /Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining.Adapters/obj/Debug/optimized/
-/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining.Adapters/obj/Debug/MacTraining.Adapters.csprojResolveAssemblyReference.cache
 /Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining.Adapters/obj/Debug/MacTraining.Adapters.csproj.CoreCompileInputs.cache
-/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining.Adapters/obj/Debug/MacTraining.Adapters.dll
-/Users/pojrzynski/Projects/training-mac/MacTraining/MacTraining.Adapters/obj/Debug/MacTraining.Adapters.pdb

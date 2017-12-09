@@ -1,5 +1,12 @@
-﻿<Properties StartupConfiguration="{2293AE6E-DD25-42B2-B59D-4CAAD1FEFC7B}|Default">
-  <MonoDevelop.Ide.Workbench />
+﻿<Properties StartupConfiguration="{2293AE6E-DD25-42B2-B59D-4CAAD1FEFC7B}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MacTraining/ViewControllers/PlayerVc.cs">
+    <Files>
+      <File FileName="MacTraining.Shared/ViewModels/MainViewModel.cs" Line="34" Column="2" />
+      <File FileName="MacTraining.Shared/ViewModels/ViewModelLocator.cs" Line="58" Column="2" />
+      <File FileName="MacTraining/ViewControllers/MainVc.cs" Line="7" Column="38" />
+      <File FileName="MacTraining/ViewControllers/PlayerVc.cs" Line="27" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

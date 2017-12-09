@@ -1,6 +1,6 @@
 using GalaSoft.MvvmLight;
 
-namespace MacTraining.ViewModel
+namespace MacTraining.Shared.ViewModels
 {
     /// <summary>
     /// This class contains properties that the main View can data bind to.

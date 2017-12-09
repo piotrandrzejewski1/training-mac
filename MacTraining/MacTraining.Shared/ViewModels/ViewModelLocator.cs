@@ -14,9 +14,8 @@
 
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Ioc;
-using Microsoft.Practices.ServiceLocation;
 
-namespace MacTraining.ViewModel
+namespace MacTraining.Shared.ViewModels
 {
     /// <summary>
     /// This class contains static references to all the view models in the
@@ -29,8 +28,6 @@ namespace MacTraining.ViewModel
         /// </summary>
         public ViewModelLocator()
         {
-            ServiceLocator.SetLocatorProvider(() => SimpleIoc.Default);
-
             ////if (ViewModelBase.IsInDesignModeStatic)
             ////{
             ////    // Create design time view services and models
@@ -49,7 +46,7 @@ namespace MacTraining.ViewModel
         {
             get
             {
-                return ServiceLocator.Current.GetInstance<MainViewModel>();
+                return SimpleIoc.Default.GetInstance<MainViewModel>();
             }
         }
         

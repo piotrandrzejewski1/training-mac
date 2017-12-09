@@ -2,6 +2,7 @@ using Foundation;
 using System;
 using UIKit;
 using MacTraining.Helpers;
+using GalaSoft.MvvmLight.Command;
 
 namespace MacTraining.ViewControllers
 {

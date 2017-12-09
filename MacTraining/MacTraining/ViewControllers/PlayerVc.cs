@@ -3,6 +3,7 @@ using System;
 using UIKit;
 using MacTraining.Shared;
 using MacTraining.Helpers;
+using GalaSoft.MvvmLight.Command;
 
 namespace MacTraining.ViewControllers
 {
@@ -23,6 +24,7 @@ namespace MacTraining.ViewControllers
             base.ViewWillAppear(animated);
             SetStyles();
             SetLocale();
+
         }
 
         partial void SettingsButton_Clicked(UIButton sender)

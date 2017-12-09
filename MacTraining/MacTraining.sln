@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacTraining.Adapters", "Mac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacTraining.Shared", "MacTraining.Shared\MacTraining.Shared.csproj", "{BCD09D5F-4BC1-406E-8BB6-C68007F9C7E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacTraining.AdaptersV2", "MacTraining.AdaptersV2\MacTraining.AdaptersV2.csproj", "{A76636A1-457F-4312-87A5-02AF9EC529B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -39,5 +41,13 @@ Global
 		{BCD09D5F-4BC1-406E-8BB6-C68007F9C7E2}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{BCD09D5F-4BC1-406E-8BB6-C68007F9C7E2}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{BCD09D5F-4BC1-406E-8BB6-C68007F9C7E2}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{A76636A1-457F-4312-87A5-02AF9EC529B3}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{A76636A1-457F-4312-87A5-02AF9EC529B3}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{A76636A1-457F-4312-87A5-02AF9EC529B3}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{A76636A1-457F-4312-87A5-02AF9EC529B3}.Release|iPhone.Build.0 = Release|Any CPU
+		{A76636A1-457F-4312-87A5-02AF9EC529B3}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{A76636A1-457F-4312-87A5-02AF9EC529B3}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{A76636A1-457F-4312-87A5-02AF9EC529B3}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{A76636A1-457F-4312-87A5-02AF9EC529B3}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D5A9A9AD-5E13-4589-9D71-EEF44DED4205}</ProjectGuid>
+    <ProjectGuid>{A76636A1-457F-4312-87A5-02AF9EC529B3}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>MacTraining.Adapters</RootNamespace>
-    <AssemblyName>MacTraining.Adapters</AssemblyName>
+    <RootNamespace>MacTraining.AdaptersV2</RootNamespace>
+    <AssemblyName>MacTraining.AdaptersV2</AssemblyName>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -22,8 +22,9 @@
     <MtouchDebug>true</MtouchDebug>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchFastDev>true</MtouchFastDev>
-    <IOSDebuggerPort>56197</IOSDebuggerPort>
+    <IOSDebuggerPort>31126</IOSDebuggerPort>
     <DeviceSpecificBuild>false</DeviceSpecificBuild>
+    <MtouchVerbosity></MtouchVerbosity>
     <MtouchLink></MtouchLink>
     <MtouchHttpClientHandler></MtouchHttpClientHandler>
   </PropertyGroup>
@@ -37,6 +38,7 @@
     <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchVerbosity></MtouchVerbosity>
     <MtouchHttpClientHandler></MtouchHttpClientHandler>
   </PropertyGroup>
   <ItemGroup>
@@ -49,8 +51,14 @@
     <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NavigationService.cs" />
+    <Compile Include="MyClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MacTraining.Shared\MacTraining.Shared.csproj">
+      <Project>{BCD09D5F-4BC1-406E-8BB6-C68007F9C7E2}</Project>
+      <Name>MacTraining.Shared</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
