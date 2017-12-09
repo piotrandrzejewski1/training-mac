@@ -25,14 +25,19 @@ namespace MacTraining.ViewControllers
         {
             if (indexPath.Section == 0)
             {
-              var cell = new UITableViewCell();
-              cell.TextLabel.Text = indexPath.Section + " " + indexPath.Row;
-              return cell;
+                var cell = new UITableViewCell();
+                cell.TextLabel.Text = indexPath.Section + " " + indexPath.Row;
+                return cell;
+            }
+            else if (indexPath.Section == 1)
+            {
+                var cell = tableView.DequeueReusableCell("IconAndTextCell", indexPath);
+                return cell;
             }
             else
             {
-    			var cell = tableView.DequeueReusableCell("IconAndTextCell", indexPath);
-    			return cell;
+                var cell = tableView.DequeueReusableCell("IconAndTextCell", indexPath);
+                return cell;
             }
         }
 
